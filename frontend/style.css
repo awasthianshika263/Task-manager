@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 40px;
+  background: #f4f4f4;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+form input {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+li {
+  background: #fff;
+  margin: 10px 0;
+  padding: 10px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
