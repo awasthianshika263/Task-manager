@@ -42,7 +42,7 @@ task-manager/
 ├── server.js
 └── .env
 
-## Setup Instructions
+## Setup Instructions (Run Locally)
 
 1. Install dependencies
 
@@ -61,11 +61,15 @@ npx nodemon server.js
 
 The backend server will start on http://localhost:5000
 
+Note: Ensure MongoDB is running locally or update MONGO_URI if using a cloud database.
+
 4. Run frontend
 
 Open the following file in a browser or use Live Server:
 
 frontend/index.html
+
+This application is currently configured to run locally. Deployment to a cloud platform is planned as a future enhancement
 
 ## API Endpoints
 
@@ -80,5 +84,5 @@ DELETE /api/tasks/:id – Delete a task
 - Deployment to a cloud platform
 
 ## Conclusion
-
-This project demonstrates core full stack development concepts including frontend UI development, backend REST API creation, database integration, and CRUD operations.
+This project demonstrates core full stack development concepts, including frontend UI development, backend REST API creation, database integration, and full CRUD operations.
+It is fully functional locally and can be extended with deployment and authentication in the future.
